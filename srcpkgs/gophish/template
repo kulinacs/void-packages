@@ -1,0 +1,14 @@
+# Template file for 'gophish'
+pkgname=gophish
+version=0.3.0
+revision=1
+nocross=1
+build_style=go
+go_import_path="github.com/gophish/gophish"
+hostmakedepends="go git"
+short_desc="Open-Source Phishing Toolkit"
+maintainer="Nicklaus McClendon <nicklaus@kulinacs.com>"
+license="MIT"
+homepage="https://getgophish.com"
+distfiles="https://github.com/gophish/${pkgname}/archive/v${version}.tar.gz"
+checksum=db45ce47eff5bd279e7c256ea987a10564aa345d5eebc5af10027eb5193c8c68
